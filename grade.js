@@ -22,4 +22,4 @@ function studentMarks(){
     }
     
 }
-studentMarks();
+console.log(studentMarks());
