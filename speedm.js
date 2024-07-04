@@ -1,19 +1,23 @@
-const prompt = require("prompt-sync")();
+// const prompt = require("prompt-sync")();
 function speedDetector(){
     let speed = parseFloat(prompt('Enter speed of the car:'));
-    let points=0;
+    
     if(speed<70){
-        return 'ok';
+        // return 'ok';
+        alert ('ok')
     }
     else {
-        points = Math.floor((speed-70)/5);
+       let points = Math.floor((speed-70)/5);
         if(points>12){
-            return 'License suspended';
+            // return 'License suspended';
+            alert('License suspended');
         }
         else{
-            return `${points}`
+            // return `${points}`;
+            alert (`Your demerit points is:${points}`);
         }
     }
 
 }
-console.log(speedDetector());
+// console.log(speedDetector());
+speedDetector();

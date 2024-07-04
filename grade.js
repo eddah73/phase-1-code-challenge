@@ -1,25 +1,32 @@
-const prompt = require("prompt-sync")();
+// const prompt = require("prompt-sync")();
 function studentMarks(){
     let marks = parseFloat(prompt('Enter student marks:'));
 
     if(marks>79 && marks<=100){
-        return 'A';
+        // return 'A';
+        alert ('A');
     }
     else if(marks>=60 && marks<=79){
-        return 'B';
+        // return 'B';
+        alert ('B');;
     }
     else if(marks>49 && marks<=59){
-        return 'C';
+        // return 'C';
+        alert ('C');
     }
     else if(marks>=40 && marks<=49){
-        return 'D';
+        // return 'D';
+        alert ('D');
     }
     else if(marks>=0 && marks<40){
-        return 'E';
+        // return 'E';
+        alert ('E');
     }
     else{
-        return 'invalid';
+        // return 'invalid';
+        alert('invalid');
     }
     
 }
-console.log(studentMarks());
+// console.log(studentMarks());
+studentMarks()
