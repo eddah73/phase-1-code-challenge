@@ -1,4 +1,4 @@
-// const prompt = require("prompt-sync")();
+
 function speedDetector(){
     let speed = parseFloat(prompt('Enter speed of the car:'));
     

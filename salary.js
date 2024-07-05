@@ -1,8 +1,9 @@
-// const prompt = require("prompt-sync")();
+
 function calculateNetSalary() {
     // Get the input values
     let basicSalary = parseFloat(prompt('Enter basic salary: '));
     let benefits = parseFloat(prompt('Enter your benefits: '));
+    
     let grossSalary= basicSalary + benefits;
   
     //Calculate payee (i.e. Tax)

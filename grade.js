@@ -1,4 +1,4 @@
-// const prompt = require("prompt-sync")();
+
 function studentMarks(){
     let marks = parseFloat(prompt('Enter student marks:'));
 
